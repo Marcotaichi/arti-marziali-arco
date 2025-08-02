@@ -1,0 +1,44 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0f0f0;
+}
+header {
+  background: #003366;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.logo {
+  width: 100px;
+}
+.hero-img {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+}
+nav a {
+  margin: 10px;
+  color: white;
+  text-decoration: none;
+}
+main {
+  padding: 20px;
+  background: white;
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #003366;
+  color: white;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+td, th {
+  border: 1px solid #999;
+  padding: 10px;
+}
