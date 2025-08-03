@@ -1,55 +1,63 @@
 <!DOCTYPE html>
-
 <html lang="it">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Contatti - A.S.D. ArtiMarzialiArco</title>
-<link href="style.css" rel="stylesheet"/>
-<style>
-            .navbar {
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: center;
-                gap: 15px;
-                background-color: #0077cc;
-                padding: 10px;
-            }
+    <meta charset="UTF-8">
+    <title>Contatti</title>
+    <style>
+body {
+    background-color: #004080;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
-            .navbar a {
-                color: white;
-                text-decoration: none;
-                font-weight: bold;
-                font-size: 1rem;
-            }
-            </style></head>
+header {
+    background-color: #004080;
+    color: orange;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    background-color: #004080;
+    padding: 10px;
+}
+
+.navbar a {
+    color: white !important;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+main {
+    padding: 30px;
+    text-align: center;
+}
+</style>
+</head>
 <body>
-<header>
-<div class="logo-bar">
-<img alt="Logo Yoseikan" class="logo-left" src="logo_yoseikan.png"/>
-<img alt="Logo Kung Fu" class="logo-right" src="logo_kungfu_chang.png"/>
+    <header>A.S.D. ArtiMarzialiArco</header>
+    
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="chi_sono.html">Chi sono</a>
+    <a href="discipline.html">Discipline</a>
+    <a href="orari.html">Orari</a>
+    <a href="contatti.html">Contatti</a>
 </div>
-<h1 class="main-title" style="color: #FF6600; font-weight: bold;">A.S.D. ArtiMarzialiArco</h1>
-<p>Yoseikan Budo · Kickboxing · MMA · Difesa Personale · Tai Chi Chuan · Shaolin Chuan</p>
-<nav class="navbar">
-<a href="index.html">Home</a>
-<a href="chi-sono.html">Chi sono</a>
-<a href="discipline.html">Discipline</a>
-<a href="orari.html">Orari</a>
-<a href="contatti.html">Contatti</a>
-</nav>
-</header>
-<main>
-<h2>Contatti</h2>
-<p>Email: <a href="mailto:lucagostner@gmail.com">lucagostner@gmail.com</a></p>
-<p>Luogo: Massone di Arco (TN)</p>
-<div style="text-align:center; margin-top:20px;">
-<iframe allowfullscreen="" height="300" loading="lazy" src="https://www.google.com/maps?q=Massone%2C%20Arco%2C%20Trento%2C%20Italia&amp;output=embed" style="border:0;" width="100%">
-</iframe>
-</div>
-<div style="text-align:center;"><a class="whatsapp-button" href="https://wa.me/393351763249" target="_blank">Scrivimi su Whatsapp</a></div></main>
-<footer>
-<p>© 2025 A.S.D. ArtiMarzialiArco</p>
-</footer>
+
+    <main><p style="color: white;">
+Email: lucagostner@gmail.com<br>
+Instagram: <a href="https://instagram.com/ArtimarzialiArco" style="color: white;" target="_blank">ArtiMarzialiArco</a><br><br>
+<a href="https://wa.me/393351763249" style="background-color:#25D366; padding:10px 15px; color:white; border-radius:5px; text-decoration:none;" target="_blank">Scrivimi su Whatsapp</a>
+</p>
+<iframe src="https://www.google.com/maps?q=Massone,+Arco,+TN&output=embed" width="100%" height="300" style="border:0; margin-top:20px;" allowfullscreen="" loading="lazy"></iframe></main>
 </body>
 </html>
