@@ -80,3 +80,7 @@ footer {
     max-height: 300px;
   }
 }
+
+.main-title {
+  color: orange;
+}
