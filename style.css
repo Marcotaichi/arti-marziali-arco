@@ -57,3 +57,26 @@ footer {
 .whatsapp-button:hover {
   background-color: #1ebc5b;
 }
+
+
+@media (max-width: 768px) {
+  header {
+    padding: 10px;
+  }
+  .logo-bar {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  nav a {
+    margin: 5px 0;
+    font-size: 18px;
+  }
+  .hero-img {
+    max-height: 300px;
+  }
+}
